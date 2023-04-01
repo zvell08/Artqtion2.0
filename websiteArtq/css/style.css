@@ -1,3 +1,8 @@
+body {
+    background-image: url('../image/assets/background.png');
+}
+
+
 /* Navbar */
 
 .navbar {
@@ -20,3 +25,62 @@
 
 
 /* End Navbar */
+
+
+/* Header */
+
+#header {
+    height: 400px;
+}
+
+.subtitle {
+    font-weight: 700;
+    font-size: 30px;
+    color: #392465;
+}
+
+.video-header {
+    width: 319px;
+    height: 168px;
+    background-color: grey;
+    border-radius: 20px;
+}
+
+.video-text {
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+}
+
+.join {
+    text-transform: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    height: 44px;
+    background: linear-gradient(90deg, #816FA7 -3.83%, #57338F 48.21%, #191437 103.6%);
+}
+
+
+/* End Header */
+
+
+/* About */
+
+.about-title {
+    font-weight: 700;
+    font-size: 54px;
+    color: #392465;
+}
+
+
+/* End About */
+
+
+/* Height for devices larger than 992px */
+
+@media (min-width: 992px) {
+    #header {
+        height: 600px;
+    }
+}
