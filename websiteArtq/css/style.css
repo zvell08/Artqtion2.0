@@ -39,17 +39,24 @@ body {
     color: #392465;
 }
 
-.video-header {
-    width: 319px;
-    height: 168px;
-    background-color: grey;
-    border-radius: 20px;
+.time {
+    width: 88px;
+    height: 100px;
+    background: linear-gradient(90deg, #816FA7 -3.83%, #57338F 48.21%, #191437 103.6%);
+    border-radius: 30px;
 }
 
-.video-text {
-    font-weight: 500;
-    font-size: 18px;
-    color: black;
+.timeText {
+    color: white;
+    font-weight: 600;
+    font-size: 38px;
+}
+
+.markerTime {
+    color: #392465;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
 }
 
 .join {
@@ -73,8 +80,80 @@ body {
     color: #392465;
 }
 
+.about-text {
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+}
+
+.instagram {
+    text-transform: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    height: 44px;
+    background: linear-gradient(90deg, #816FA7 -3.83%, #57338F 48.21%, #191437 103.6%);
+}
+
+.visit {
+    font-weight: 600;
+    font-size: 20px;
+    color: #392465;
+}
+
 
 /* End About */
+
+
+/* Techno Camp */
+
+.techno-title {
+    font-weight: 700;
+    font-size: 54px;
+    color: #392465;
+}
+
+.techno-text {
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.techno-btn {
+    text-transform: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    height: 44px;
+    background: linear-gradient(90deg, #816FA7 -3.83%, #57338F 48.21%, #191437 103.6%);
+}
+
+
+/* End Techno Camp */
+
+
+/* Gallery */
+
+.gallery-title {
+    font-weight: 700;
+    font-size: 54px;
+    color: #392465;
+}
+
+.scrolling-wrapper {
+    overflow-x: scroll;
+}
+
+.item-gallery {
+    width: 276px;
+    height: 140px;
+    background-color: grey;
+    border-radius: 15px;
+}
+
+
+/* End Gallery */
 
 
 /* Height for devices larger than 992px */

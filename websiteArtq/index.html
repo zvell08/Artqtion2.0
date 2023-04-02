@@ -67,15 +67,36 @@
 
         </div>
 
-        <div class="row d-flex justify-content-center">
-            <div class="col-md-3">
-                <div class="container video-header"></div>
+        <div class="row d-flex justify-content-center mb-6">
+            <div class="col-md-1">
+                <div class="container time d-flex align-items-center justify-content-center">
+                    <div class="text-center timeText  " id="countdownDay"></div>
+
+                </div>
+                <span class="markerTime">Days</span>
             </div>
-            <div class="col-md-4 text-start">
-                <p class="text-start video-text">Lorem ipsum dolor sit amet, consectetur adam perferendis eius totam quo vero placeat natus libero, sunt aut, non laudantium quia modi quidem officia architecto! Reprehenderit.</p>
-                <a href="" class="btn btn-rounded join text-center">Join Us</a>
+
+            <div class="col-md-1">
+                <div class="container time d-flex align-items-center justify-content-center">
+                    <div class="text-center timeText" id="countdownHours"></div>
+                </div>
+                <span class="markerTime">Hours</span>
+            </div>
+            <div class="col-md-1">
+                <div class="container time d-flex align-items-center justify-content-center">
+                    <div class="text-center timeText" id="countdownMinutes"></div>
+                </div>
+                <span class="markerTime">Minutes</span>
+            </div>
+            <div class="col-md-1">
+                <div class="container time d-flex align-items-center justify-content-center">
+                    <div class="text-center timeText" id="countdownSeconds"></div>
+                </div>
+                <span class="markerTime">Seconds</span>
             </div>
         </div>
+
+        <a href="" class="btn-rounded ps-4  pe-4 pt-2 pb-2 join">Join us</a>
 
         <div class="d-flex justify-content-center ">
             <div class="logo-maker mt-5">
@@ -87,15 +108,67 @@
         </div>
 
     </div>
-
-    <section class="about">
+    <!-- About -->
+    <section class="about mb-9">
         <div class="container">
-            <span class="about-title">
-                About ArtQTion
-            </span>
+            <div class="d-flex align-items-center">
+                <span class="about-title me-4 pt-3">About</span><img src="image/assets/logo_header.png" width="250" height="65" alt="">
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="about-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium beatae consequuntur ipsam similique sit sunt saepe exercitationem quo? Voluptatum porro temporibus ut nam, reprehenderit itaque repudiandae ipsum corporis maiores
+                        ex?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi et in dolore beatae delectus sint accusamus aut quibusdam expedita ratione <br> <br> consectetur iure earum nisi aliquam quam cum laboriosam, explicabo minima.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aspernatur esse aliquid molestiae reprehenderit sapiente nemo ducimus exercitationem harum obcaecati culpa voluptatibus, quae ab accusamus dolor quam libero eos corporis.
+                    </p>
+                    <div class="d-flex align-items-center pt-3">
+                        <a href="" class="btn btn-rounded instagram me-3 ">@artqtion.official</a><span class="visit">Visit our Instagram!</span>
+                    </div>
+
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-3"><img src="image/assets/logo_about.png" alt=""></div>
+            </div>
 
         </div>
     </section>
+    <!-- End About -->
+
+    <!-- Techno Camp -->
+    <section class="techno mb-9">
+        <div class="container text-center ">
+            <h1 class="techno-title">Techno Camp</h1>
+            <div class="d-flex justify-content-center">
+                <div class="col-md-10">
+                    <p class="techno-text ps-6 pe-6">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum consequuntur repellendus ab necessitatibus! Provident saepe animi repudiandae nihil itaque ab nulla optio, nobis amet quia et quis adipisci! Repudiandae, rerum. Lorem, ipsum dolor sit amet
+                        consectetur adipisicing elit. Cumque dolorem fugiat non iusto vel nemo. Quidem tempore autem quis debitis, voluptates consectetur, officiis animi minus pariatur praesentium mollitia earum cupiditate.
+                    </p>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <a href="" class="btn btn-rounded techno-btn me-2">Book</a>
+                <a href="" class="btn btn-rounded techno-btn">Register</a>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Techno Camp -->
+
+    <!-- Gallery -->
+    <section class="gallery">
+        <div class="container">
+            <h1 class="gallery-title">Gallery</h1>
+            <div class="scrolling-wrapper">
+                <div class="item-gallery"></div>
+            </div>
+        </div>
+    </section>
+    <!-- End Gallery -->
+
+
 </body>
+<script src="js/script.js"></script>
+<!-- MDB -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
 
 </html>
