@@ -35,10 +35,18 @@
         margin-bottom: 15px;
     }
     
+    .logo-maker {
+        text-align: center !important;
+    }
+    
     .subtitle {
         font-weight: 700;
         font-size: 25px;
         color: #392465;
+    }
+    
+    .time-row {
+        padding-right: 40px;
     }
     
     .time {
@@ -286,6 +294,9 @@
         }
         .about {
             text-align: left;
+        }
+        .time-row {
+            padding-right: 0;
         }
         .time {
             width: 78px;
