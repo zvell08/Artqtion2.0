@@ -1,248 +1,303 @@
-body {
-    background-image: url('../image/assets/background.png');
-}
-
-
-/* Navbar */
-
-.navbar {
-    box-shadow: none;
-}
-
-.navbar-brand {
-    margin-left: 15px;
-}
-
-.nav-item {
-    font-size: 20px;
-    font-weight: 700;
-    margin-right: 20px;
-}
-
-.nav-link {
-    color: #392465;
-}
-
-
-/* End Navbar */
-
-
-/* Header */
-
-#header {
-    height: 400px;
-}
-
-.subtitle {
-    font-weight: 700;
-    font-size: 30px;
-    color: #392465;
-}
-
-.time {
-    width: 88px;
-    height: 100px;
-    background: linear-gradient(90deg, #816FA7 -3.83%, #57338F 48.21%, #191437 103.6%);
-    border-radius: 30px;
-}
-
-.timeText {
-    color: white;
-    font-weight: 600;
-    font-size: 38px;
-}
-
-.markerTime {
-    color: #392465;
-    font-size: 20px;
-    font-weight: 600;
-    margin-top: 10px;
-}
-
-.join {
-    text-transform: none;
-    font-weight: 600;
-    font-size: 16px;
-    color: white;
-    height: 44px;
-    background: linear-gradient(90deg, #816FA7 -3.83%, #57338F 48.21%, #191437 103.6%);
-}
-
-
-/* End Header */
-
-
-/* About */
-
-.about-title {
-    font-weight: 700;
-    font-size: 54px;
-    color: #392465;
-}
-
-.about-text {
-    font-size: 16px;
-    color: black;
-    font-weight: 500;
-}
-
-.instagram {
-    text-transform: none;
-    font-weight: 600;
-    font-size: 16px;
-    color: white;
-    height: 44px;
-    background: linear-gradient(90deg, #816FA7 -3.83%, #57338F 48.21%, #191437 103.6%);
-}
-
-.visit {
-    font-weight: 600;
-    font-size: 20px;
-    color: #392465;
-}
-
-
-/* End About */
-
-
-/* Techno Camp */
-
-.techno-title {
-    font-weight: 700;
-    font-size: 54px;
-    color: #392465;
-}
-
-.techno-text {
-    color: black;
-    font-weight: 500;
-    font-size: 16px;
-    text-align: center;
-}
-
-.techno-btn {
-    text-transform: none;
-    font-weight: 600;
-    font-size: 16px;
-    color: white;
-    height: 44px;
-    background: linear-gradient(90deg, #816FA7 -3.83%, #57338F 48.21%, #191437 103.6%);
-}
-
-
-/* End Techno Camp */
-
-
-/* Gallery */
-
-.gallery-title {
-    font-weight: 700;
-    font-size: 54px;
-    color: #392465;
-}
-
-.scrolling-wrapper {
-    overflow-x: scroll;
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
-}
-
-.scrolling-wrapper::-webkit-scrollbar {
-    display: none;
-}
-
-.item-gallery {
-    width: 276px;
-    height: 170px;
-    background-color: rgb(184, 178, 178);
-    border-radius: 15px;
-    display: inline-block;
-    margin-right: 15px;
-}
-
-.gallery-btn {
-    text-transform: none;
-    font-weight: 600;
-    font-size: 16px;
-    color: white;
-    height: 44px;
-    background: linear-gradient(90deg, #816FA7 -3.83%, #57338F 48.21%, #191437 103.6%);
-}
-
-
-/* End Gallery */
-
-
-/* Maps */
-
-.maps-title {
-    font-weight: 700;
-    font-size: 54px;
-    color: #392465;
-}
-
-.map {
-    flex: 1 1 45rem;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 30px;
-    height: 400px;
-}
-
-.maps-text {
-    font-weight: 600;
-    font-size: 20px;
-    color: #000000;
-}
-
-.maps-btn {
-    text-transform: none;
-    font-weight: 600;
-    font-size: 16px;
-    color: white;
-    height: 44px;
-    background: linear-gradient(90deg, #816FA7 -3.83%, #57338F 48.21%, #191437 103.6%);
-}
-
-.maps-logo {
-    background: linear-gradient(90deg, rgba(129, 111, 167, 0.2) -3.83%, rgba(87, 51, 143, 0.2) 48.21%, rgba(25, 20, 55, 0.2) 103.6%);
-    width: 55px;
-    height: 55px;
-    border-radius: 30px;
-}
-
-
-/* End Maps */
-
-
-/* Sponsor */
-
-.sponsor-title {
-    font-weight: 700;
-    font-size: 54px;
-    color: #392465;
-}
-
-
-/* End Sponsor */
-
-
-/* Media */
-
-.media-title {
-    font-weight: 700;
-    font-size: 54px;
-    color: #392465;
-}
-
-
-/* End Media */
-
-
-/* Height for devices larger than 992px */
-
-@media (min-width: 992px) {
-    #header {
-        height: 600px;
+    body {
+        background-image: url('../image/assets/background.png');
+        overflow-x: hidden;
     }
-}
+    /* Navbar */
+    
+    .navbar {
+        box-shadow: none;
+    }
+    
+    .navbar-brand {
+        margin-left: 15px;
+    }
+    
+    .nav-item {
+        font-size: 20px;
+        font-weight: 700;
+        margin-right: 20px;
+    }
+    
+    .nav-link {
+        color: #392465;
+    }
+    /* End Navbar */
+    /* Header */
+    
+    #header {
+        height: 700px;
+    }
+    
+    .header-logo {
+        text-align: center;
+        width: 270px;
+        height: 60px;
+        margin-bottom: 15px;
+    }
+    
+    .subtitle {
+        font-weight: 700;
+        font-size: 25px;
+        color: #392465;
+    }
+    
+    .time {
+        width: 68px;
+        height: 80px;
+        background: linear-gradient(90deg, #816FA7 -3.83%, #57338F 48.21%, #191437 103.6%);
+        border-radius: 30px;
+    }
+    
+    .timeText {
+        color: white;
+        font-weight: 600;
+        font-size: 32px;
+    }
+    
+    .markerTime {
+        color: #392465;
+        font-size: 17px;
+        font-weight: 600;
+        margin-top: 10px;
+        text-align: center !important;
+    }
+    
+    .join {
+        text-transform: none;
+        font-weight: 600;
+        font-size: 16px;
+        color: white;
+        height: 44px;
+        background: linear-gradient(90deg, #816FA7 -3.83%, #57338F 48.21%, #191437 103.6%);
+    }
+    /* End Header */
+    /* About */
+    
+    .about-title {
+        margin-bottom: -17px;
+        font-weight: 700;
+        font-size: 54px;
+        color: #392465;
+    }
+    
+    .about-text {
+        font-size: 16px;
+        color: black;
+        font-weight: 500;
+    }
+    
+    .about-logo {
+        display: none;
+    }
+    
+    .instagram {
+        text-transform: none;
+        font-weight: 600;
+        font-size: 16px;
+        color: white;
+        height: 44px;
+        background: linear-gradient(90deg, #816FA7 -3.83%, #57338F 48.21%, #191437 103.6%);
+    }
+    
+    .visit {
+        font-weight: 600;
+        font-size: 20px;
+        color: #392465;
+    }
+    
+    .video-artq {
+        background-color: rgb(0, 0, 0) !important;
+        width: 303px;
+        height: 152px;
+        border-radius: 13px;
+    }
+    
+    .ver-video {
+        font-weight: 700;
+        font-size: 54px;
+        color: #FFFFFF;
+    }
+    
+    .video-name {
+        font-weight: 700;
+        font-size: 32px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    /* End About */
+    /* Techno Camp */
+    
+    .techno-title {
+        font-weight: 700;
+        font-size: 54px;
+        color: #392465;
+    }
+    
+    .techno-text {
+        color: black;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .techno-btn {
+        text-transform: none;
+        font-weight: 600;
+        font-size: 16px;
+        color: white;
+        height: 44px;
+        background: linear-gradient(90deg, #816FA7 -3.83%, #57338F 48.21%, #191437 103.6%);
+    }
+    /* End Techno Camp */
+    /* Gallery */
+    
+    .gallery-title {
+        font-weight: 700;
+        font-size: 54px;
+        color: #392465;
+    }
+    
+    .scrolling-wrapper {
+        overflow-x: scroll;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .scrolling-wrapper::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .item-gallery {
+        width: 276px;
+        height: 170px;
+        background-color: rgb(184, 178, 178);
+        border-radius: 15px;
+        display: inline-block;
+        margin-right: 15px;
+    }
+    
+    .gallery-btn {
+        text-transform: none;
+        font-weight: 600;
+        font-size: 16px;
+        color: white;
+        height: 44px;
+        background: linear-gradient(90deg, #816FA7 -3.83%, #57338F 48.21%, #191437 103.6%);
+    }
+    /* End Gallery */
+    /* Maps */
+    
+    .maps-title {
+        font-weight: 700;
+        font-size: 54px;
+        color: #392465;
+    }
+    
+    .map {
+        flex: 1 1 45rem;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 30px;
+        height: 400px;
+    }
+    
+    .maps-text {
+        font-weight: 600;
+        font-size: 20px;
+        color: #000000;
+    }
+    
+    .maps-btn {
+        text-transform: none;
+        font-weight: 600;
+        font-size: 16px;
+        color: white;
+        height: 44px;
+        background: linear-gradient(90deg, #816FA7 -3.83%, #57338F 48.21%, #191437 103.6%);
+    }
+    
+    .maps-logo {
+        background: linear-gradient(90deg, rgba(129, 111, 167, 0.2) -3.83%, rgba(87, 51, 143, 0.2) 48.21%, rgba(25, 20, 55, 0.2) 103.6%);
+        width: 55px;
+        height: 55px;
+        border-radius: 30px;
+    }
+    /* End Maps */
+    /* Sponsor */
+    
+    .sponsor-title {
+        font-weight: 700;
+        font-size: 54px;
+        color: #392465;
+    }
+    /* End Sponsor */
+    /* Media */
+    
+    .media-title {
+        font-weight: 700;
+        font-size: 54px;
+        color: #392465;
+    }
+    /* End Media */
+    /* Footer */
+    
+    footer {
+        background: linear-gradient(90deg, #816FA7 -3.83%, #57338F 48.21%, #191437 103.6%);
+    }
+    
+    .contact {
+        font-weight: 700;
+        font-size: 54px;
+        color: #FFFFFF;
+    }
+    
+    .numb {
+        font-weight: 500;
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+    
+    .icon-footer {
+        font-size: 37px;
+        color: white;
+    }
+    
+    .icon-footer-envelope {
+        font-size: 32px;
+        color: white;
+    }
+    
+    .footer-text {
+        color: white;
+    }
+    /* End Footer */
+    /* Height for devices larger than 992px */
+    
+    @media (min-width: 992px) {
+        #header {
+            height: 700px;
+        }
+        .header-logo {
+            width: 500px;
+            height: 115px;
+        }
+        .subtitle {
+            font-size: 30px;
+        }
+        .about {
+            text-align: left;
+        }
+        .time {
+            width: 78px;
+            height: 90px;
+        }
+        .timeText {
+            font-size: 38px;
+        }
+        .markerTime {
+            font-size: 20px;
+        }
+        .about-logo {
+            display: contents !important;
+        }
+    }
