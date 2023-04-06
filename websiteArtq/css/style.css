@@ -392,6 +392,12 @@
        color: white;
    }
    
+   .wa-icon {
+       height: 90px;
+       font-size: 37px;
+       color: white;
+   }
+   
    .icon-footer-envelope {
        font-size: 32px;
        color: white;
@@ -430,7 +436,7 @@
        .markerTime {
            font-size: 20px;
        }
-       .about .logo-about {
+       .logo-about {
            display: content !important;
        }
        .subtitle-down {
